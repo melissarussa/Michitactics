@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../css/LoginEstilo.css">
+    <link rel="stylesheet" href="../css/cod.css">
+    <link rel="icon" href="../img/mini_logo.png">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box_login">
+        <h2>Iniciar sesión</h2>
+        <form action="login.php" method="post">
+            <span id="muestra_error_cundo_dijita_mal"></span>
+            <label>ingrese su correo </label>
+            <input type="email" name="email" placeholder="Ingrese aquí su correo" required>
+            <label>ingrese su contraseña</label>
+            <input type="password" name="contraseña" placeholder="contraseña" size="15" required>
+            <input type="submit" value="Ingresar">
+        </form>
+    </div>
+</body>
+
+</html>

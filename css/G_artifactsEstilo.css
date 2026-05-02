@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+body {
+    background-color: #EDDDC0;
+    color: #42416B;
+}
+
+a {
+    text-decoration: none;
+    color: #B3E9F3;
+}
+header {
+    background-color: #42416B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    background-color: #42416B;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #4CB4CA;
+}
+
+.menu>li {
+    /* > para llamar a la etiqueta directa si lo colocamos .menu li llamará todos los li dentor de menu */
+    float: left;
+}
+
+.menu li ul {
+    margin: 10px 0;
+    border-top: solid #B3E9F3;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 2;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.nav_bot {
+    margin: 0 10px;
+    background-color: #4CB4CA;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.nav_bot a {
+    background-color: #4CB4CA;
+}
+.nav_bot a:hover{
+    color: #42416B;
+}
+
+/*panel de navegacion*/
+
+.grid-composicion {
+    display: grid;
+    grid-template-columns: 300px auto; /* aside fijo + contenido ocupa todo lo demás */
+    gap: 20px;                         /* espacio entre columnas */
+    min-height: 100vh;                 /* ocupa toda la altura de la ventana */
+}
+.contenido {
+    background-color: #EDDDC0;
+    padding: 20px 10px;
+    border-right: 1px solid #42416B;
+    position: sticky;
+    top: 105px;
+    height: 100vh; /* se adapta al contenido */
+    align-items: center; /* centra verticalmente */
+    bottom: -30px;
+}
+.contenido ul {
+    display: flex;              /* activa flexbox */
+    flex-direction: column;     /*organiza los enlaces en columna */
+    height: 100%;               /*ocupa todo el alto del aside */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.contenido a{
+    color: #42416B; /*Desde acá se cambia esta etiqueta*/
+    display: block; /* ocupa todo el ancho */
+    font-size: 20px;
+    transition: 0.3;
+    /*Hasta acá se cambia esta etiqueta */
+}
+.indice-li{
+    padding: 10.5px;
+    border-bottom: 1px dotted #42416B;
+}
+
+.contenido-principal {
+    padding: 20px;
+    height: 100%;
+    justify-self: start;
+}
+
+/*Contenido*/
+.texto-css {
+    margin: 15px 15%;
+}
+
+.texti-css {
+    font-size: 23px;
+    text-align: justify;
+}
+
+h2 {
+    color: #C4A78A;
+    text-shadow: 1px 1px #7b7aaa;
+    font-size: 40px;
+}
+
+h3 {
+    color: #42416B;
+    font-size: 35px;
+}
+
+.contenido-estilo-css.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: #42416B;
+    padding: 15px;
+    color: #EDDDC0;
+    font-size: 18px;
+}
+
+
+.img_cont {
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    padding: 20px 15%;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    background-color: #EDDDC0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #42416B;
+    color: #B3E9F3;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #C4A78A;
+    color: #42416B;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f0e6;
+}
+
+tr:hover {
+    background-color: #d9cbb0;
+    transition: 0.3s;
+}

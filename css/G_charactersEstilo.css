@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #EDDDC0;
+    color: #42416B;
+}
+
+a {
+    text-decoration: none;
+    color: #B3E9F3;
+}
+
+/* Barra de navegación*/
+header {
+    background-color: #42416B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    background-color: #42416B;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #4CB4CA;
+}
+
+.menu>li {
+    /* > para llamar a la etiqueta directa si lo colocamos .menu li llamará todos los li dentor de menu */
+    float: left;
+}
+
+.menu li ul {
+    margin: 10px 0;
+    border-top: solid #B3E9F3;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 2;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.nav_bot {
+    margin: 0 10px;
+    background-color: #4CB4CA;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.nav_bot a {
+    background-color: #4CB4CA;
+}
+
+.nav_bot a:hover{
+    color: #42416B;
+}
+
+.contenido a {
+    color: #42416B;
+}
+
+body {
+    background-color: #EDDDC0;
+    color: #42416B;
+}
+
+.texto-css {
+    margin: 0 15%;
+}
+
+h2 {
+    color: #C4A78A;
+    text-shadow: 1px 1px #7b7aaa;
+    font-size: 40px;
+}
+
+.img_cont {
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    padding: 20px 15%;
+}
+
+.texti-css {
+    font-size: 23px;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    background-color: #EDDDC0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #42416B;
+    color: #B3E9F3;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #C4A78A;
+    color: #42416B;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f0e6;
+}
+
+tr:hover {
+    background-color: #d9cbb0;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #42416B;
+    color: #EDDDC0;
+    padding: 15px;
+    font-size: 18px;
+}
+
+h3 {
+    color: #42416B;
+    font-size: 35px;
+}

@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #EDDDC0;
+    color: #42416B;
+}
+
+a {
+    text-decoration: none;
+    color: #B3E9F3;
+}
+/* Barra de navegación*/
+header {
+    background-color: #42416B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    background-color: #42416B;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #4CB4CA;
+}
+
+.menu>li {
+    /* > para llamar a la etiqueta directa si lo colocamos .menu li llamará todos los li dentro de menu */
+    float: left;
+}
+
+.menu li ul {
+    margin: 10px 0;
+    border-top: solid #B3E9F3;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 2;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.nav_bot {
+    margin: 0 10px;
+    background-color: #4CB4CA;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.nav_bot a {
+    background-color: #4CB4CA;
+}
+.nav_bot a:hover{
+    color: #42416B;
+}
+/*contenido */
+
+.texto-css {
+    margin: 15px 15%;
+}
+
+.texti-css {
+    font-size: 23px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #7b7aaa;
+}
+
+h2 {
+    color: #C4A78A;
+    text-shadow: 1px 1px #7b7aaa;
+    font-size: 40px;
+}
+
+h3 {
+    color: #42416B;
+    font-size: 35px;
+}
+
+.port_img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    display: block;
+}
+
+.img_cont {
+    height: auto;
+    width: 70%;
+    padding: 20px 17%;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    background-color: #EDDDC0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #42416B;
+    color: #B3E9F3;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #C4A78A;
+    color: #42416B;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f0e6;
+}
+
+tr:hover {
+    background-color: #d9cbb0;
+    transition: 0.3s;
+}
+
+.genshin_pri {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px
+}
+
+.contenido a {
+    color: #42416B;
+    padding: 40px 30px;
+}
+
+#que-somos {
+    background-image: url('../img/fondo_op.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #EDDDC0;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#que-somos p {
+    width: 50%;
+}
+
+#que-somos img {
+    width: 50%;
+}
+
+.botones {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 100px;
+}
+
+.boton a {
+    color: #42416B;
+}
+
+.circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #42416B;
+    background-image: linear-gradient(#1D2A3E, #563D82);
+}
+
+.circulo:hover {
+    animation-name: boton_a;
+    animation-duration: 1s;
+}
+
+footer {
+    background-color: #42416B;
+    color: #EDDDC0;
+    padding: 15px;
+    font-size: 18px;
+}
+
+@keyframes boton_a {
+    0% {
+        background-image: linear-gradient(#1D2A3E, #563D82);
+    }
+
+    50% {
+        width: 260px;
+        height: 260px;
+    }
+
+    100% {
+        background-image: linear-gradient(#1D2A3E, #4BB9CC);
+    }
+}

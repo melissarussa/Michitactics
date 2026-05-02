@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #EDDDC0;
+    color: #42416B;
+}
+
+a {
+    text-decoration: none;
+    color: #B3E9F3;
+}
+/* Barra de navegación*/
+header {
+    background-color: #42416B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    background-color: #42416B;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #4CB4CA;
+}
+
+.menu>li {
+    /* > para llamar a la etiqueta directa si lo colocamos .menu li llamará todos los li dentro de menu */
+    float: left;
+}
+
+.menu li ul {
+    margin: 10px 0;
+    border-top: solid #B3E9F3;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 2;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.nav_bot {
+    margin: 0 10px;
+    background-color: #4CB4CA;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.nav_bot a {
+    background-color: #4CB4CA;
+}
+.nav_bot a:hover{
+    color: #42416B;
+}
+
+footer {
+    background-color: #42416B;
+    color: #EDDDC0;
+    padding: 15px;
+    font-size: 18px;
+}
