@@ -24,6 +24,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .menu {
@@ -75,7 +78,7 @@ header {
 }
 
 .texto-css{
-    margin: 0 15%;
+    margin: 15px 15%;
 }
 
 h2 {
@@ -93,6 +96,7 @@ h2 {
 
 .texti-css{
     font-size: 23px;
+    text-align: justify;
 }
 
 table {

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-     <header class="menu">
+    <header class="menu">
         <div class="logo">
             <a href="index.html">
                 <img src="../img/logo.png" width="120px">
@@ -95,86 +95,200 @@
                 </p>
             </div>
             <div class="container" id="selector-personajes-nav"><!--fila, clasificación por datos, un filtro-->
-                <div class="filtro">
-                    <div class="columna">
-                        <ul>
-                            <li class="texto-css">Elemento</li>
-                            <ul>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Pyro"><img
-                                        src="../img/pyro.png" height="40px">Pyro</li>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Hydro"><img
-                                        src="../img/hydro.png" height="40px">Hydro</li>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Anemo"><img
-                                        src="../img/anemo.png" height="40px">Anemo</li>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Electro"><img
-                                        src="../img/electro.png" height="40px">Electro</li>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Cryo"><img
-                                        src="../img/cryo.png" height="40px">Cryo</li>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Geo"><img
-                                        src="../img/geo.png" height="40px">Geo</li>
-                                <li class="texto-css"><input type="checkbox" name="elemento" id="Dendro"><img
-                                        src="../img/dendro.png" height="40px">Dendro</li>
-                            </ul>
-                        </ul>
+                <div class="advanced-filters">
+
+                    <!-- ELEMENTOS -->
+                    <div class="filter-group">
+
+                        <h3>Elemento</h3>
+
+                        <div class="icon-grid">
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="pyro" name="elemento">
+                                <label for="pyro">
+                                    <img src="../img/pyro.png" alt="">
+                                    <span>Pyro</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="hydro" name="elemento">
+                                <label for="hydro">
+                                    <img src="../img/hydro.png" alt="">
+                                    <span>Hydro</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="anemo" name="elemento">
+                                <label for="anemo">
+                                    <img src="../img/anemo.png" alt="">
+                                    <span>Anemo</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="electro" name="elemento">
+                                <label for="electro">
+                                    <img src="../img/electro.png" alt="">
+                                    <span>Electro</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="cryo" name="elemento">
+                                <label for="cryo">
+                                    <img src="../img/cryo.png" alt="">
+                                    <span>Cryo</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="geo" name="elemento">
+                                <label for="geo">
+                                    <img src="../img/geo.png" alt="">
+                                    <span>Geo</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="dendro" name="elemento">
+                                <label for="dendro">
+                                    <img src="../img/dendro.png" alt="">
+                                    <span>Dendro</span>
+                                </label>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="columna">
-                        <ul>
-                            <li class="texto-css">Rol</li>
-                            <ul>
-                                <li class="texto-css"><input type="checkbox" name="rol" id="main-dps"><img
-                                        src="../img/dps_prin.png" height="40px">Main DPS</li>
-                                <li class="texto-css"><input type="checkbox" name="rol" id="sub-dps"><img
-                                        src="../img/sub_dps.png" height="40px">Sub DPS</li>
-                                <li class="texto-css"><input type="checkbox" name="rol" id="buffer"><img
-                                        src="../img/buff.png" height="40px">Buffer</li>
-                                <li class="texto-css"><input type="checkbox" name="rol" id="shielder"><img
-                                        src="../img/shield.png" height="40px">Shielder</li>
-                                <li class="texto-css"><input type="checkbox" name="rol" id="healer"><img
-                                        src="../img/healer.png" height="40px">Healer</li>
-                                <li class="texto-css"><input type="checkbox" name="rol" id="Support"><img
-                                        src="../img/support.png" height="40px">Support</li>
-                            </ul>
-                        </ul>
+
+                    <!-- ROLES -->
+                    <div class="filter-group">
+
+                        <h3>Rol</h3>
+
+                        <div class="icon-grid">
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="main-dps" name="rol">
+                                <label for="main-dps">
+                                    <img src="../img/dps_prin.png" alt="">
+                                    <span>Main DPS</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="sub-dps" name="rol">
+                                <label for="sub-dps">
+                                    <img src="../img/sub_dps.png" alt="">
+                                    <span>Sub DPS</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="buffer" name="rol">
+                                <label for="buffer">
+                                    <img src="../img/buff.png" alt="">
+                                    <span>Buffer</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="shielder" name="rol">
+                                <label for="shielder">
+                                    <img src="../img/shield.png" alt="">
+                                    <span>Shielder</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="healer" name="rol">
+                                <label for="healer">
+                                    <img src="../img/healer.png" alt="">
+                                    <span>Healer</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="support" name="rol">
+                                <label for="support">
+                                    <img src="../img/support.png" alt="">
+                                    <span>Support</span>
+                                </label>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="columna">
-                        <ul>
-                            <li class="texto-css">Nación</li>
-                            <ul>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Mondstadt"><img
-                                        src="../img/mondstadt.png" height="40px">Mondstadt</li>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Liyue"><img
-                                        src="../img/liyue.png" height="40px">Liyue</li>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Inazuma"><img
-                                        src="../img/inazuma.png" height="40px">Inazuma</li>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Sumeru"><img
-                                        src="../img/sumeru.png" height="40px">Sumeru</li>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Fontaine"><img
-                                        src="../img/fontaine.png" height="40px">Fontaine</li>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Natlan"><img
-                                        src="../img/natlan.png" height="40px">Natlan</li>
-                                <li class="texto-css"><input type="checkbox" name="nacion" id="Nod-Krai"><img
-                                        src="../img/nod-k.png" height="40px">Nod-Krai</li>
-                            </ul>
-                        </ul>
+
+                    <!-- NACIONES -->
+                    <div class="filter-group">
+
+                        <h3>Nación</h3>
+
+                        <div class="icon-grid">
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="mondstadt" name="nacion">
+                                <label for="mondstadt">
+                                    <img src="../img/mondstadt.png" alt="">
+                                    <span>Mondstadt</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="liyue" name="nacion">
+                                <label for="liyue">
+                                    <img src="../img/liyue.png" alt="">
+                                    <span>Liyue</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="inazuma" name="nacion">
+                                <label for="inazuma">
+                                    <img src="../img/inazuma.png" alt="">
+                                    <span>Inazuma</span>
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="sumeru" name="nacion">
+                                <label for="sumeru">
+                                    <img src="../img/sumeru.png" alt="">
+                                    <span>Sumeru</span>
+                                </label>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="rareza">
-                        <ul>
-                            <li class="texto-css">Rareza</li>
-                            <ul>
-                                <li class="texto-css"><input type="checkbox" name="rareza" id="4-estrellas"><img
-                                        src="../img/4star.png" height="30px">4 estrellas</li>
-                                <li class="texto-css"><input type="checkbox" name="rareza" id="5-estrellas"><img
-                                        src="../img/5star.png" height="40px">5 estrellas</li>
-                            </ul>
-                        </ul>
+
+                    <!-- RAREZA -->
+                    <div class="filter-group">
+
+                        <h3>Rareza</h3>
+
+                        <div class="icon-grid">
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="4-star" name="rareza">
+                                <label for="4-star">
+                                    <img class="img-tuki" src="../img/4star.png" alt="">
+                                </label>
+                            </div>
+
+                            <div class="filter-option">
+                                <input type="checkbox" id="5-star" name="rareza">
+                                <label for="5-star">
+                                    <img class="img-tuki" src="../img/5star.png" alt="">
+                                </label>
+                            </div>
+
+                        </div>
                     </div>
+
                 </div>
-                <div class="selector-personajes" id="selector-personajes-nav">
-                    <div>
-                        <img class="img_cont" src="" alt="">
-                        <h4></h4>
-                    </div>
-                </div>
+                
             </div>
             <div class="datos-importantes" id="datos-importantes-nv">
                 <ul>
@@ -314,9 +428,12 @@
             </div>
         </main>
     </div>
+
     <footer class="piesite">
         <div class="foot-mensaje">Guide.MichiTactics.com</div>
     </footer>
+
+
 </body>
 
 </html>

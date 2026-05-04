@@ -20,6 +20,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .menu {
@@ -68,8 +71,74 @@ header {
 .nav_bot a:hover{
     color: #42416B;
 }
+
+/*panel de navegacion*/
+
+.grid-composicion {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-height: 100vh;
+    align-items: start;
+}
+.contenido {
+    background-color: #EDDDC0;
+    padding: 20px 10px;
+    border-right: 1px solid #42416B;
+    position: fixed;
+    top: 101px;
+    height: calc(100vh - 101px);
+    width: 300px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 2;
+}
+/*testeo, eliminar flechas o botones y dejar barra de navegacion*/
+.contenido::-webkit-scrollbar{
+    width: 8px; /* Ajusta grosor de la barra de navegación*/
+}
+.contenido::-webkit-scrollbar-button{
+    display: none;
+}
+.contenido::-webkit-scrollbar-thumb{
+    background-color: #C1C1C1;
+    border-radius: 10px;
+}
+.contenido::-webkit-scrollbar-track{
+    background: white;
+}
+/*fin testeo*/
+.contenido ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.contenido a{
+    color: #42416B;
+    display: block;
+    font-size: 20px;
+    transition: 0.3;
+}
+
+.contenido a:hover {
+    color: #4CB4CA;
+}
+
+.indice-li{
+    padding: 10.5px;
+    border-bottom: 1px dotted #42416B;
+}
+
+.contenido-principal {
+    padding: 20px;
+    grid-column: 2;
+    margin-left: 20px;
+}
+
 .texto-css {
-    margin: 0 15%;
+    margin: 15px 15%;
 }
 
 h2 {
@@ -87,6 +156,7 @@ h2 {
 
 .texti-css {
     font-size: 23px;
+    text-align: justify;
 }
 
 ul {
@@ -133,6 +203,9 @@ footer {
     color: #EDDDC0;
     padding: 15px;
     font-size: 18px;
+    top: 0;
+    z-index: 4;
+    position: relative;
 }
 
 h3 {

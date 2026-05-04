@@ -6,17 +6,79 @@
 }
 
 body {
-    background-image: url(../img/fondo_letras_op.jpg);
+    background-image: url('../img/imagen-fondo-login.png');
+}
+.conte {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
 }
 
-header {
-    background-color: #42416B;
+.box_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #42416b2c;
+    padding: 40px 20px;
+}
+input {
+    font-size: 13px;
+    border: 1px solid #3F6091;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
+h2 {
+    position: relative;
+    color: #4CB4CA;
+    text-shadow: 1px 1px 2px #ffffff6b;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.email-input {
+    position: relative;
+    width: 200px;
+    margin-top: 10px;
+    background-color: #3F6091;
+}
+
+.contra-input {
+    position: relative;
+    margin-top: 10px;
+    width: 200px;
+    background-color: #3F6091;
+}
+
+.submit-input {
+    position: relative;
+    margin-top: 10px;
+    left: 60px;
+    color: #fff;
+    background-color: #3F6091;
+}
+
+.label-email {
+    position: relative;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.label-contra {
+    position: relative;
+    top: 5px;
+    color: #fff;
+}
+.submit-input:hover{
+    background-color:#273b58;
+    color: #4CB4CA;
+}
 
 footer {
     background-color: #42416B;
     color: #EDDDC0;
-    padding: 15px;
-    font-size: 18px;
+    padding: 15px;/
 }
+

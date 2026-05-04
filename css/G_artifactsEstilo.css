@@ -16,6 +16,7 @@ a {
     text-decoration: none;
     color: #B3E9F3;
 }
+
 header {
     background-color: #42416B;
     display: flex;
@@ -24,6 +25,7 @@ header {
     padding: 0 15px;
     position: sticky;
     top: 0;
+    z-index: 3;
 }
 
 .menu {
@@ -52,7 +54,6 @@ header {
     display: none;
     position: absolute;
     min-width: 140px;
-    z-index: 2;
 }
 
 .menu li:hover>ul {
@@ -77,35 +78,57 @@ header {
 
 .grid-composicion {
     display: grid;
-    grid-template-columns: 300px auto; /* aside fijo + contenido ocupa todo lo demás */
-    gap: 20px;                         /* espacio entre columnas */
-    min-height: 100vh;                 /* ocupa toda la altura de la ventana */
+    grid-template-columns: 300px 1fr;
+    min-height: 100vh;
+    align-items: start;
 }
 .contenido {
     background-color: #EDDDC0;
     padding: 20px 10px;
     border-right: 1px solid #42416B;
-    position: sticky;
-    top: 105px;
-    height: 100vh; /* se adapta al contenido */
-    align-items: center; /* centra verticalmente */
-    bottom: -30px;
+    position: fixed;
+    top: 101px;
+    height: calc(100vh - 101px);
+    width: 300px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 2;
 }
+/*testeo, eliminar flechas o botones y dejar barra de navegacion*/
+.contenido::-webkit-scrollbar{
+    width: 8px; /* Ajusta grosor de la barra de navegación*/
+}
+.contenido::-webkit-scrollbar-button{
+    display: none;
+}
+.contenido::-webkit-scrollbar-thumb{
+    background-color: #C1C1C1;
+    border-radius: 10px;
+}
+.contenido::-webkit-scrollbar-track{
+    background: white;
+}
+/*fin testeo*/
 .contenido ul {
-    display: flex;              /* activa flexbox */
-    flex-direction: column;     /*organiza los enlaces en columna */
-    height: 100%;               /*ocupa todo el alto del aside */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
 }
+
 .contenido a{
-    color: #42416B; /*Desde acá se cambia esta etiqueta*/
-    display: block; /* ocupa todo el ancho */
+    color: #42416B;
+    display: block;
     font-size: 20px;
     transition: 0.3;
-    /*Hasta acá se cambia esta etiqueta */
 }
+
+.contenido a:hover {
+    color: #4CB4CA;
+}
+
 .indice-li{
     padding: 10.5px;
     border-bottom: 1px dotted #42416B;
@@ -113,8 +136,8 @@ header {
 
 .contenido-principal {
     padding: 20px;
-    height: 100%;
-    justify-self: start;
+    grid-column: 2;
+    margin-left: 20px;
 }
 
 /*Contenido*/
@@ -142,15 +165,6 @@ h3 {
     display: flex;
     justify-content: center;
 }
-
-
-footer {
-    background-color: #42416B;
-    padding: 15px;
-    color: #EDDDC0;
-    font-size: 18px;
-}
-
 
 .img_cont {
     justify-content: center;
@@ -192,4 +206,14 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #d9cbb0;
     transition: 0.3s;
+}
+
+footer {
+    background-color: #42416B;
+    padding: 15px;
+    color: #EDDDC0;
+    font-size: 18px;
+    top: 0;
+    z-index: 4;
+    position: relative;
 }
