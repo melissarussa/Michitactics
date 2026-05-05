@@ -215,3 +215,162 @@ h3{
     color: #42416B;
     font-size: 35px;
 }
+.mobs_todos {
+    display: grid;
+    margin: 0 15%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media screen and (min-width:600px){
+    .mobs_todos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:900px){
+    .mobs_todos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+.mob-card {
+    border-radius: 1rem;
+    background-color: #d9cbb0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mob-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.mob-img img {
+    width: 100px;
+}
+
+.mob-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.mob-info {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.mob-drops {
+    margin-top: 8px;
+    font-size: 0.8rem;
+}
+.drop-item {
+    background: #c4a78a;
+    margin: 4px 0;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+}
+.mob-info {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* ELEMENTOS */
+
+.mob-info.pyro {
+    background: #ff6b4a;
+    color: white;
+}
+
+.mob-info.hydro {
+    background: #4ab6ff;
+    color: white;
+}
+
+.mob-info.cryo {
+    background: #9be0ff;
+    color: black;
+}
+
+.mob-info.electro {
+    background: #b96bff;
+    color: white;
+}
+
+.mob-info.anemo {
+    background: #64e3c3;
+    color: black;
+}
+
+.mob-info.geo {
+    background: #e0b54a;
+    color: black;
+}
+
+.mob-info.dendro {
+    background: #7bc74d;
+    color: white;
+}
+
+/* SIN ELEMENTO */
+.mob-info.ninguno {
+    background: #ccc;
+    color: black;
+}
+.element-container {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.element-badge {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* COLORES */
+
+.element-badge.pyro {
+    background: #ff6b4a;
+    color: white;
+}
+
+.element-badge.hydro {
+    background: #4ab6ff;
+    color: white;
+}
+
+.element-badge.cryo {
+    background: #9be0ff;
+    color: black;
+}
+
+.element-badge.electro {
+    background: #b96bff;
+    color: white;
+}
+
+.element-badge.anemo {
+    background: #64e3c3;
+    color: black;
+}
+
+.element-badge.geo {
+    background: #e0b54a;
+    color: black;
+}
+
+.element-badge.dendro {
+    background: #7bc74d;
+    color: white;
+}
