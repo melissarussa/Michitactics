@@ -1,0 +1,182 @@
+
+<?php
+    include("../PHP/conexion.php");
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/GuideEstilo.css">
+    <link rel="stylesheet" href="../css/cod.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/mini_logo.png">
+    <title>Guía meta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="logo">
+            <a href="index.php">
+                <img src="../img/logo.png" width="120px">
+            </a>
+        </div>
+        <div>
+            <ul class="menu">
+                <li class="head-list"><a href="Guide.php">Guia meta</a>
+                    <ul>
+                        <li><a href="G_weapons.php">Armas</a></li>
+                        <li><a href="G_artifacts.php">Artefactos</a></li>
+                        <li><a href="G_characters.php">Personajes</a></li>
+                        <li><a href="G_mobs.php">Mobs hostiles</a></li>
+                        <li><a href="G_mobs_nohostiles.php">Mobs no hostiles</a></li>
+                        <li><a href="G_builds.php">builds</a></li>
+                    </ul>
+                </li>
+                <li class="head-list">
+                    <a href="P_builder.php">Guia personalizada</a><!--guia personalizada, o creador de builds-->
+                    <ul>
+                        <li><a href="P_builder_team.php">Crear equipos</a></li>
+                    </ul>
+                </li>
+                <li class="nav_bot">
+                    <a href="Login.php">Login</a>
+                </li>
+                <li class="nav_bot">
+                    <a href="Sign_up.php">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="grid-composicion">
+        <aside class="contenido">
+            <div class="tabla-de-contenido">
+                <ul>
+                    <li class="texto-css indice-li">
+                        <a href="#content-nav">Introducción a la Guía</a>
+                    </li>
+                    <ul>
+                        <li class="texto-css indice-li">
+                            <a href="#personajes-nav">Personajes</a>
+                        </li>
+                        <li class="texto-css indice-li">
+                            <a href="#armas-nav">Armas</a>
+                        </li>
+                        <li class="texto-css indice-li">
+                            <a href="#artefactos-nav">Artefactos</a>
+                        </li>
+                        <li class="texto-css indice-li">
+                            <a href="#mob-no-hostil-nav">Mobs no hostiles</a>
+                        </li>
+                        <li class="texto-css indice-li">
+                            <a href="#mob-hostil-nav">Mobs hostiles</a>
+                        </li>
+                        <li class="texto-css indice-li">
+                            <a href="#build-nav">Builds</a>
+                        </li>
+                        <li class="texto-css indice-li">
+                            <a href="#list_bottoms-nav">Contenido</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+        <main class="contenido-principal">
+            <div class="seccion_sup">
+                <div>
+                    <h2 class="texto-css" id="content-nav">Introducción a la Guía</h2>
+                    <p class="texto-css texti-css">
+                        El camino a través de las siete naciones está lleno de peligros,
+                        pero con el equipo adecuado, nada es imposible. Esta página es tu
+                        manual de supervivencia en Genshin Impact. Aquí analizamos el poder
+                        oculto en las armas y artefactos, diseccionamos las debilidades de cada
+                        enemigo y te explicamos los secretos detrás de los números y estadísticas
+                        que rigen este mundo. Tu viaje para encontrar a tu hermano/a comienza con
+                        una buena estrategia.
+                    </p>
+                </div>
+            </div>
+            <div class="content" id="content-nav">
+                <div class="mini_content_all">
+                    <div class="mini_content" id="personajes-nav">
+                        <h3 class="texto-css">Personajes</h3>
+                        <img class="img_cont" src="../img/characters_img2.png">
+                        <p class="texto-css texti-css">
+                            Cada guerrero en Teyvat es único. En esta sección, analizamos a fondo a cada
+                            personaje para que sepas exactamente cómo equiparlos. Descubre sus mejores
+                            roles, las habilidades que debes priorizar y las sinergias elementales que
+                            harán que tu equipo sea imparable en cualquier desafío.
+                        </p>
+                        <a class="boton texto-css" href="G_characters.php">conocer más</a>
+                    </div>
+                    <div class="mini_content" id="armas-nav">
+                        <h3 class="texto-css">Armas</h3>
+                        <img class="img_cont" src="../img/weapon_port.jpg">
+                        <p class="texto-css texti-css">
+                            No todas las armas funcionan igual para todos los personajes. En esta sección
+                            analizamos el catálogo completo de Teyvat: desde las legendarias de 5 estrellas
+                            hasta las joyas ocultas de 4 estrellas y forja. Compara estadísticas base,
+                            efectos pasivos y descubre cuál es la mejor opción para maximizar el daño o
+                            la utilidad de tu equipo.
+                        </p>
+                        <a class="boton texto-css" href="G_weapons.php">conocer más</a>
+                    </div>
+                    <div class="mini_content" id="artefactos-nav">
+                        <h3 class="texto-css">Artefactos</h3>
+                        <img class="img_cont" src="../img/artefact_port.jpeg">
+                        <p class="texto-css texti-css">
+                            Un buen set puede duplicar el daño de tu personaje. En esta sección
+                            analizamos cada conjunto de artefactos, sus bonos de 2 y 4 piezas, y
+                            cuáles son las piezas clave que debes buscar.
+                        </p>
+                        <a class="boton texto-css" href="G_artifacts.php">conocer más</a>
+                    </div>
+                    <div class="mini_content" id="mob-no-hostil-nav">
+                        <h3 class="texto-css">Mob No Hostiles</h3>
+                        <img class="img_cont" src="../img/mobs_no_post3.jpg">
+                        <p class="texto-css texti-css">
+                            Desde las gráciles grullas de Liyue hasta los zorros de las nieves en
+                            Espinadragón. Aquí catalogamos a los seres que no buscan pelea, pero
+                            que son vitales para tu progreso. Aprende sus ubicaciones, comportamientos
+                            y cómo recolectar materiales esenciales sin que escapen antes de que los alcances.
+                        </p>
+                        <a class="boton texto-css" href="G_mobs_nohostiles.php">Conocer más</a>
+                    </div>
+                    <div class="mini_content" id="mob-hostil-nav">
+                        <h3 class="texto-css">Mobs hostiles</h3>
+                        <img class="img_cont" src="../img/mob_hostiles6.jpg">
+                        <p class="texto-css texti-css">
+                            Si quieres mejorar tus armas y talentos, tendrás que enfrentarte a los
+                            peligros del mundo abierto. Aquí clasificamos a los mobs hostiles por su
+                            nivel de amenaza y tipo de daño. Descubre las mejores tácticas para romper
+                            sus escudos y las rutas de farmeo más eficientes para conseguir los materiales
+                            que tu equipo necesita.
+                        </p>
+                        <a class="boton texto-css" href="G_mobs.php">Conocer más</a>
+                    </div>
+                    <div class="mini_content" id="build-nav">
+                        <h3 class="texto-css">Builds</h3>
+                        <img class="img_cont" src="../img/builds_post.jpg">
+                        <p class="texto-css texti-css">
+                            ¿Quieres que tu personaje sea un atacante principal o un soporte imparable?
+                            Aquí exploramos las distintas formas de buildear a cada guerrero de Teyvat.
+                            Te mostramos las combinaciones de armas y artefactos que mejor se adaptan a
+                            tu forma de jugar, junto con los equipos recomendados para activar las mejores
+                            reacciones elementales.
+                        </p>
+                        <a class="boton texto-css" href="G_builds.php">Conocer más</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="piesite">
+        <div class="foot-mensaje">Guide.MichiTactics.com</div>
+    </footer>
+</body>
+
+</html>

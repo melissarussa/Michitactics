@@ -1,0 +1,1141 @@
+{
+  "Amber": {
+    "element": "Pyro",
+    "weapon": "Arco",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/amber.png"
+  },
+  "Kaeya": {
+    "element": "Cryo",
+    "weapon": "Espada",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/kaeya.png"
+  },
+  "Lisa": {
+    "element": "Electro",
+    "weapon": "Catalizador",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/lisa.png"
+  },
+  "Barbara": {
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/barbara.png"
+  },
+  "Diluc": {
+    "element": "Pyro",
+    "weapon": "Mandoble",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/diluc.png"
+  },
+  "Jean": {
+    "element": "Anemo",
+    "weapon": "Espada",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/jean.png"
+  },
+  "Venti": {
+    "element": "Anemo",
+    "weapon": "Arco",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/venti.png"
+  },
+  "Klee": {
+    "element": "Pyro",
+    "weapon": "Catalizador",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/klee.png"
+  },
+  "Mona": {
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/mona.png"
+  },
+  "Albedo": {
+    "element": "Geo",
+    "weapon": "Espada",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/albedo.png"
+  },
+  "Eula": {
+    "element": "Cryo",
+    "weapon": "Mandoble",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/eula.png"
+  },
+  "Bennett": {
+    "element": "Pyro",
+    "weapon": "Espada",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/bennett.png"
+  },
+  "Razor": {
+    "element": "Electro",
+    "weapon": "Mandoble",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/razor.png"
+  },
+  "Sucrose": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/sucrose.png"
+  },
+  "Rosaria": {
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/rosaria.png"
+  },
+  "Diona": {
+    "element": "Cryo",
+    "weapon": "Arco",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/diona.png"
+  },
+  "Noelle": {
+    "element": "Geo",
+    "weapon": "Mandoble",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Shielder"
+    ],
+    "icon": "../img/icono/noelle.png"
+  },
+  "Fischl": {
+    "element": "Electro",
+    "weapon": "Arco",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/fischl.png"
+  },
+  "Mika": {
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/mika.png"
+  },
+  "Zhongli": {
+    "element": "Geo",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Shielder"
+    ],
+    "icon": "../img/icono/zhongli.png"
+  },
+  "Hu Tao": {
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/hu-tao.png"
+  },
+  "Xiao": {
+    "element": "Anemo",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/xiao.png"
+  },
+  "Ganyu": {
+    "element": "Cryo",
+    "weapon": "Arco",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/ganyu.png"
+  },
+  "Shenhe": {
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/shenhe.png"
+  },
+  "Yelan": {
+    "element": "Hydro",
+    "weapon": "Arco",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/yelan.png"
+  },
+  "Xingqiu": {
+    "element": "Hydro",
+    "weapon": "Espada",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/xingchiu.png"
+  },
+  "Xiangling": {
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/xiangling.png"
+  },
+  "Beidou": {
+    "element": "Electro",
+    "weapon": "Mandoble",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/beidou.png"
+  },
+  "Ningguang": {
+    "element": "Geo",
+    "weapon": "Catalizador",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/ninguang.png"
+  },
+  "Yanfei": {
+    "element": "Pyro",
+    "weapon": "Catalizador",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/yanfei.png"
+  },
+  "Qiqi": {
+    "element": "Cryo",
+    "weapon": "Espada",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/qiqi.png"
+  },
+  "Keqing": {
+    "element": "Electro",
+    "weapon": "Espada",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/keqing.png"
+  },
+  "Baizhu": {
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/baizhu.png"
+  },
+  "Gaming": {
+    "element": "Pyro",
+    "weapon": "Mandoble",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/gaming.png"
+  },
+  "Xianyun": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/xianyun.png"
+  },
+  "Chongyun": {
+    "element": "Cryo",
+    "weapon": "Mandoble",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/chongyun.png"
+  },
+  "Yun Jin": {
+    "element": "Geo",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/yun-jin.png"
+  },
+  "Yaoyao": {
+    "element": "Dendro",
+    "weapon": "Lanza",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/yaoyao.png"
+  },
+  "Raiden Shogun": {
+    "element": "Electro",
+    "weapon": "Lanza",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/shogun-raiden.png"
+  },
+  "Kamisato Ayaka": {
+    "element": "Cryo",
+    "weapon": "Espada",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/kamisato-ayaka.png"
+  },
+  "Kamisato Ayato": {
+    "element": "Hydro",
+    "weapon": "Espada",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/kamisato-ayato.png"
+  },
+  "Kaedehara Kazuha": {
+    "element": "Anemo",
+    "weapon": "Espada",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/kaedehara-kazuha.png"
+  },
+  "Yoimiya": {
+    "element": "Pyro",
+    "weapon": "Arco",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/yoimiya.png"
+  },
+  "Yae Miko": {
+    "element": "Electro",
+    "weapon": "Catalizador",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/yae-miko.png"
+  },
+  "Kuki Shinobu": {
+    "element": "Electro",
+    "weapon": "Espada",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/kuki-shinobu.png"
+  },
+  "Sangonomiya Kokomi": {
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/sangonomiya-kokomi.png"
+  },
+  "Arataki Itto": {
+    "element": "Geo",
+    "weapon": "Mandoble",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/arataki-itto.png"
+  },
+  "Gorou": {
+    "element": "Geo",
+    "weapon": "Arco",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/gorou.png"
+  },
+  "Thoma": {
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Shielder"
+    ],
+    "icon": "../img/icono/thoma.png"
+  },
+  "Shikanoin Heizou": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/shikanoin-heizou.png"
+  },
+  "Kirara": {
+    "element": "Dendro",
+    "weapon": "Espada",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Shielder"
+    ],
+    "icon": "../img/icono/kirara.png"
+  },
+  "Sayu": {
+    "element": "Anemo",
+    "weapon": "Mandoble",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/sayu.png"
+  },
+  "Kujou Sara": {
+    "element": "Electro",
+    "weapon": "Arco",
+    "region": "Inazuma",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/kujou-sara.png"
+  },
+  "Nahida": {
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/nahida.png"
+  },
+  "Alhaitham": {
+    "element": "Dendro",
+    "weapon": "Espada",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/alhacen.png"
+  },
+  "Nilou": {
+    "element": "Hydro",
+    "weapon": "Espada",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/nilou.png"
+  },
+  "Cyno": {
+    "element": "Electro",
+    "weapon": "Lanza",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/cyno.png"
+  },
+  "Tighnari": {
+    "element": "Dendro",
+    "weapon": "Arco",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/tignari.png"
+  },
+  "Wanderer": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/trotamundos.png"
+  },
+  "Faruzan": {
+    "element": "Anemo",
+    "weapon": "Arco",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/faruzan.png"
+  },
+  "Layla": {
+    "element": "Cryo",
+    "weapon": "Espada",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Shielder"
+    ],
+    "icon": "../img/icono/layla.png"
+  },
+  "Candace": {
+    "element": "Hydro",
+    "weapon": "Lanza",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/candace.png"
+  },
+  "Collei": {
+    "element": "Dendro",
+    "weapon": "Arco",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/collei.png"
+  },
+  "Dehya": {
+    "element": "Pyro",
+    "weapon": "Mandoble",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Shielder"
+    ],
+    "icon": "../img/icono/dehya.png"
+  },
+  "Kaveh": {
+    "element": "Dendro",
+    "weapon": "Mandoble",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/kaveh.png"
+  },
+  "Dori": {
+    "element": "Electro",
+    "weapon": "Mandoble",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/dori.png"
+  },
+  "Neuvillette": {
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/neuvillette.png"
+  },
+  "Furina": {
+    "element": "Hydro",
+    "weapon": "Espada",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/furina.png"
+  },
+  "Navia": {
+    "element": "Geo",
+    "weapon": "Mandoble",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/navia.png"
+  },
+  "Clorinde": {
+    "element": "Electro",
+    "weapon": "Espada",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/clorinde.png"
+  },
+  "Wriothesley": {
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/wriothesley.png"
+  },
+  "Lyney": {
+    "element": "Pyro",
+    "weapon": "Arco",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/lyney.png"
+  },
+  "Lynette": {
+    "element": "Anemo",
+    "weapon": "Espada",
+    "region": "Fontaine",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/lynette.png"
+  },
+  "Freminet": {
+    "element": "Cryo",
+    "weapon": "Mandoble",
+    "region": "Fontaine",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/freminet.png"
+  },
+  "Chevreuse": {
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "region": "Fontaine",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/chevreuse.png"
+  },
+  "Charlotte": {
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "region": "Fontaine",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/charlotte.png"
+  },
+  "Sigewinne": {
+    "element": "Hydro",
+    "weapon": "Arco",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/sigewinne.png"
+  },
+  "Chiori": {
+    "element": "Geo",
+    "weapon": "Espada",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/chiori.png"
+  },
+  "Emilie": {
+    "element": "Dendro",
+    "weapon": "Lanza",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/emilie.png"
+  },
+  "Arlecchino": {
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "region": "Snezhnaya",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/arlecchino.png"
+  },
+  "Aloy": {
+    "element": "Cryo",
+    "weapon": "Arco",
+    "region": "Otro",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/aloy.png"
+  },
+  "Aino": {
+    "element": "Hydro",
+    "weapon": "Mandoble",
+    "region": "Desconocido",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/aino.png"
+  },
+
+  "Citlali": {
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "region": "Natlan",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/citlali.png"
+  },
+
+  "Colombina": {
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "region": "Snezhnaya",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/colombina.png"
+  },
+
+  "Dahlia": {
+    "element": "Hydro",
+    "weapon": "Espada",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/dahlia.png"
+  },
+
+  "Durin": {
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/durin.png"
+  },
+
+  "Escoffier": {
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "region": "Fontaine",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/escoffier.png"
+  },
+
+  "Flins": {
+    "element": "Electro",
+    "weapon": "Lanza",
+    "region": "Nod-Krai",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/flins.png"
+  },
+
+  "Ifá": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Natlan",
+    "rarity": 4,
+    "roles": [
+      "Healer"
+    ],
+    "icon": "../img/icono/ifa.png"
+  },
+
+  "Iansán": {
+    "element": "Electro",
+    "weapon": "Lanza",
+    "region": "Natlan",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/iansan.png"
+  },
+
+  "Iluga": {
+    "element": "Geo",
+    "weapon": "Lanza",
+    "region": "Nod-Krai",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/illuga.png"
+  },
+
+  "Ineffa": {
+    "element": "Electro",
+    "weapon": "Lanza",
+    "region": "Nod-Krai",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/ineffa.png"
+  },
+
+  "Jahoda": {
+    "element": "Anemo",
+    "weapon": "Arco",
+    "region": "Nod-Krai",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/jahoda.png"
+  },
+
+  "Lan-Yan": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Liyue",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/lan-yan.png"
+  },
+
+  "Lauma": {
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "region": "Nod-Krai",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/lauma.png"
+  },
+
+  "Linnéa": {
+    "element": "Desconocido",
+    "weapon": "Desconocido",
+    "region": "Nod-Krai",
+    "rarity": 4,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/linnea.png"
+  },
+
+  "Manekín-femenino": {
+    "element": "Desconocido",
+    "weapon": "Desconocido",
+    "region": "",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/manekin-femenino.png"
+  },
+
+  "Manekín-masculino": {
+    "element": "Desconocido",
+    "weapon": "Desconocido",
+    "region": "",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/manekin-masculino.png"
+  },
+
+  "Mavuika": {
+    "element": "Pyro",
+    "weapon": "Mandoble",
+    "region": "Natlan",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/mavuika.png"
+  },
+
+  "Mualani": {
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "region": "Natlan",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/mualani.png"
+  },
+
+  "Néfer": {
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "region": "Sumeru",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/nefer.png"
+  },
+
+  "Ororon": {
+    "element": "Electro",
+    "weapon": "Arco",
+    "region": "Natlan",
+    "rarity": 4,
+    "roles": [
+      "Sub DPS"
+    ],
+    "icon": "../img/icono/ororon.png"
+  },
+
+  "Sethos": {
+    "element": "Electro",
+    "weapon": "Arco",
+    "region": "Sumeru",
+    "rarity": 4,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/sethos.png"
+  },
+
+  "Skirk": {
+    "element": "Cryo",
+    "weapon": "Espada",
+    "region": "Khaenri'ah",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/skirk.png"
+  },
+
+  "Tartaglia": {
+    "element": "Hydro",
+    "weapon": "Arco",
+    "region": "Snezhnaya",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/tartaglia.png"
+  },
+
+  "Varesa": {
+    "element": "Electro",
+    "weapon": "Catalizador",
+    "region": "Natlan",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/varesa.png"
+  },
+
+  "Varka": {
+    "element": "Anemo",
+    "weapon": "Mandoble",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/varka.png"
+  },
+
+  "Viajero": {
+    "element": "Multi",
+    "weapon": "Espada",
+    "region": "Otro",
+    "rarity": 5,
+    "roles": [
+      "Main DPS"
+    ],
+    "icon": "../img/icono/viajero.png"
+  },
+
+  "Xilonen": {
+    "element": "Geo",
+    "weapon": "Espada",
+    "region": "Natlan",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/xilonen.png"
+  },
+
+  "Yumemizuki-Mizuki": {
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "region": "Inazuma",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/yumemizuki-mizuki.png"
+  },
+
+  "Zibai": {
+    "element": "Geo",
+    "weapon": "Espada-ligera",
+    "region": "Liyue",
+    "rarity": 5,
+    "roles": [
+      "Support"
+    ],
+    "icon": "../img/icono/zibai.png"
+  }
+}

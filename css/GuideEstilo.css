@@ -210,6 +210,12 @@ tr:hover {
     padding: 10px 5px ;
     color:#42416B;
     background-color: #7b7aaa;
+    border-radius: 16px;
+    transition-duration: 0.2s;
+}
+a.boton:hover{
+    background-color: #4CB4CA;
+    color: #B3E9F3;
 }
 
 footer {
